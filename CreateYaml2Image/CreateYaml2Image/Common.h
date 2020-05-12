@@ -70,6 +70,7 @@ char * _readFileBase(char *fname, int *rsize);
 int _getKeyValue(char *line, int lcnt);
 int _getKeyName(char *line, int lcnt, char *keybuf);
 int _getOneLine(char *buf, int size, int spos, char *line);
+void dbg_createBMPFileCbuf(char *cbuf, int ww, int hh, char *fname, int ymillor);
 
 
 //YamlReadSet

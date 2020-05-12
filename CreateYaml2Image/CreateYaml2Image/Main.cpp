@@ -63,3 +63,4 @@ void _createOnePageImage(int pno, YAML_PAGE_HEAD *page, char *outbase)
 	memset(cbuf, 0, ww * hh);
 
 }
+
