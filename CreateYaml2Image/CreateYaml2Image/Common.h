@@ -1,3 +1,4 @@
+#define MY_PIE 3.141592
 
 typedef struct{
 	int kind; //1:pitch(OTAMA) 2:rest
