@@ -92,3 +92,8 @@ int _createYAMLpartInfo(char *buf, int size, int spos, YAML_PAGE_HEAD *page);
 int _createYAMLfivelineInfo(char *buf, int size, int spos, YAML_PART_HEAD *part);
 int _createYAMLmeasureInfo(char *buf, int size, int spos, YAML_FIVELINE_HEAD *fiveline);
 int _createYAMLnoteInfo(char *buf, int size, int spos, YAML_MEASURE_HEAD *mbox);
+
+
+//YamlDraw
+void yd_drawLine(char *cbuf, int ww, int hh, int sx, int sy, int ex, int ey, int lw);
+void yd_drawBlackOtama(char *cbuf, int ww, int hh, int sx, int sy, int ex, int ey);

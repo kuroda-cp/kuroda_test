@@ -1,10 +1,10 @@
-﻿2020/05/12 14:55:54 にビルドを開始しました。
+﻿2020/05/12 16:26:48 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Download\kuroda_test\CreateYaml2Image\CreateYaml2Image\CreateYaml2Image.vcxproj" (Rebuild ターゲット)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Common.cpp Main.cpp YamlDraw.cpp YamlReadSet.cpp
          YamlReadSet.cpp
          YamlDraw.cpp
-     1>c:\download\kuroda_test\createyaml2image\createyaml2image\yamldraw.cpp(51): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\download\kuroda_test\createyaml2image\createyaml2image\yamldraw.cpp(92): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
          Main.cpp
          Common.cpp
          コードを生成中...
@@ -18,4 +18,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.73
+経過時間 00:00:01.79
