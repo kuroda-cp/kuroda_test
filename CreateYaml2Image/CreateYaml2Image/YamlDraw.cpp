@@ -21,4 +21,16 @@ void yd_drawLine(char *cbuf, int ww, int hh, int sx, int sy, int ex, int ey, int
 			}
 		}
 	}
+	if (sy == ey){
+		ssy = sy - (lw / 2);
+		if (lw % 2 == 0) ssy += 1;
+		eey = sy + (lw / 2);
+		for (y = ssy; y <= eey; y++){
+			if (y < 0) continue;
+			if (y >= hh) break;
+			for (x = sx; x <= ex; x++){
+				cbuf[(y * ww) + x] = 0x01;
+			}
+		}
+	}
 }
